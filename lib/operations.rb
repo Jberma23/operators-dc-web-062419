@@ -4,7 +4,7 @@ def unsafe?(speed)
   puts "unsafe" unless speed.between?(40,60);
 end
 
-unsafe?(70)
+unsafe?(45)
 
 def not_safe?(speed)
 
