@@ -1,7 +1,5 @@
 def unsafe?(speed)
- speed 
-  # puts "safe" if (mph <40 | mph > 60)
-  puts "unsafe" unless speed.between?(40,60);
+  puts "unsafe" if (speed < 40 | speed > 60)
 end
 
 unsafe?(45)
