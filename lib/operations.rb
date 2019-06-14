@@ -1,6 +1,9 @@
+
+
+
 def unsafe?(speed)
-  num = speed
-  puts "unsafe" unless (speed >= 40 | speed <= 60)
+  num = (40..60).to_a
+  puts "unsafe" if speed == num
 end
 
 unsafe?(45)
